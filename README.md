@@ -1,7 +1,7 @@
-# Belief System Dynamics — Australian Climate Attitudes
+# Belief System Dynamics - Australian Climate Attitudes
 ### A Monte Carlo Agent-Based Model using the Multidimensional Friedkin-Johnsen Framework
 
-> Simulating how climate-related belief systems evolve across a socially networked Australian population, grounded in Converse (1964) and the Six Americas climate segmentation framework.
+> Simulating how climate-related belief systems evolve across a socially networked Australian population using an Agent-based model, grounded in the Six Americas climate segmentation framework.
 
 ---
 
