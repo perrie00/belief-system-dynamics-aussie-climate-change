@@ -19,15 +19,40 @@ The six agent personas are drawn from the Six Americas Short Survey (SASSY) fram
 ---
 
 ## Repository Structure
-
 ```
 .
-├── main_simulation.m      # Main Monte Carlo simulation script
-├── WattsStrogatz.m        # Custom Watts-Strogatz network generator
+├── main_simulation.m           # Main Monte Carlo simulation script (MATLAB)
+├── WattsStrogatz.m             # Custom Watts-Strogatz network generator
+├── preprocessing/
+│   └── belief_systems_six_Australias.ipynb   # Data preprocessing (Python/Colab)
 └── README.md
 ```
 
----
+## Data Preprocessing
+
+The `preprocessing/` folder contains a Google Colab notebook 
+(`belief_systems_six_Australias.ipynb`) used to:
+
+- Load and inspect the SASSY survey dataset (`.sav` format via `pyreadstat`)
+- Compute persona proportions from the `SASSYSegment` variable
+- Extract the modal survey response per persona per topic
+- Generate Likert scale visualisations for each of the four topics 
+  (Importance, Worry, Personal, Future) using `plot_likert`
+- Export figures to Google Drive for use in the report
+
+**Dependencies:**
+- `pandas`
+- `pyreadstat`
+- `plot_likert`
+- `matplotlib`
+
+**Note:** The raw survey data (`data.sav`) is included in this repository. 
+The dataset is openly available from the original study:
+
+Neumann, C., Stanley, S. K., Leviston, Z., & Walker, I. (2022). 
+The Six Australias: Concern About Climate Change (and Global Warming) is Rising. 
+*Environmental Communication*, 16(4), 1–12. 
+https://doi.org/10.1080/17524032.2022.2048407
 
 ## Model Description
 
