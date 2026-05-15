@@ -220,17 +220,6 @@ The Dismissive persona additionally holds negative off-diagonal entries, reflect
 
 ---
 
-## References
-
-- Converse, P. E. (1964). The nature of belief systems in mass publics. In D. Apter (Ed.), *Ideology and discontent*. Free Press.
-- DeGroot, M. H. (1974). Reaching a consensus. *Journal of the American Statistical Association*, 69(345), 118–121.
-- Friedkin, N. E., & Johnsen, E. C. (1990). Social influence and opinions. *Journal of Mathematical Sociology*, 15(3-4), 193–206.
-- Friedkin, N. E., Proskurnikov, A. V., Tempo, R., & Parsegov, S. E. (2016). Network science on belief system dynamics under logic constraints. *Science*, 354(6310), 321–326.
-- Watts, D. J., & Strogatz, S. H. (1998). Collective dynamics of small-world networks. *Nature*, 393, 440–442.
-- Leiserowitz, A., et al. Six Americas of climate change. Yale Program on Climate Change Communication.
-
----
-
 ## Acknowledgements
 Submitted as part of **Data Science Research Project B**, School of Mathematical Sciences, University of Adelaide.
 
